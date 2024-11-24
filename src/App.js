@@ -143,11 +143,12 @@ const VideoPlayer = () => {
           justifyContent: 'space-between',
           alignItems: 'center',
           px: 4,
-          height: 60
+          height: 60,
+          borderRadius: '8px'
         }}
       >
         <Typography sx={{ color: '#1978CD', fontSize: '20px' }}>
-          Dori UX Interview: <Box component="span" sx={{ color: '#fff' }}>Sreenath</Box>
+          Dori UX Interview: <Box component="span" sx={{ color: '#fff' }}>Sreenath Yekabote</Box>
         </Typography>
         <Typography sx={{ color: '#1978CD', fontSize: '20px' }}>
           Today's Date: <Box component="span" sx={{ color: '#fff' }}>{new Date().toDateString()}</Box>
